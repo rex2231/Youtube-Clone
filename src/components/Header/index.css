@@ -1,0 +1,58 @@
+.header-logo {
+  height: 30px;
+  width: 120px;
+}
+
+.sun-icon {
+  color: white;
+}
+
+.header-controls-container {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-controls-button {
+  all: initial;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.header-controls-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.popup-heading {
+  font-size: 20px;
+}
+
+.popup-button-cancel {
+  all: initial;
+  font-family: roboto;
+  padding: 10px;
+  color: darkgray;
+  border: 1px solid gray;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.popup-button-conform {
+  all: initial;
+  font-family: roboto;
+  padding: 10px;
+  color: white;
+  background-color: #267fe5;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.popup-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}

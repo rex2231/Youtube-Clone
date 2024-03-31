@@ -1,0 +1,34 @@
+.not-found-page {
+  margin: 0;
+  width: 100%;
+  background-color: #f9f8f5;
+}
+
+.not-found-image {
+  height: 350px;
+  width: 400px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.not-found-description {
+  margin: 0;
+  color: gray;
+}

@@ -1,0 +1,123 @@
+.videos-section {
+  height: calc(100vh - 60px);
+  margin: 0;
+  width: 100%;
+}
+
+.nxt-watch-banner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 30%;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.nxt-watch-banner-logo {
+  height: 40px;
+  width: 150px;
+}
+
+.nxt-watch-banner-get-button {
+  all: initial;
+  border: 2px solid black;
+  padding: 8px;
+  font-family: roboto;
+  font-weight: 450;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logo-close-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.banner-close-button {
+  all: initial;
+  cursor: pointer;
+}
+
+.home-page-videos-container {
+  padding: 20px;
+}
+
+.home-videos-search-container {
+  padding: 20px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.home-search-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.home-search-button {
+  all: initial;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.home-search-icon {
+  color: rgb(87, 87, 87);
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-failure-view-img {
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+}
+
+.failure-view-heading {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.failure-view-description {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.retry-button {
+  all: initial;
+  padding: 10px;
+  background-color: #4f46e5;
+  color: white;
+  font-family: roboto;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+}
+
+.no-videos-img {
+  height: 200px;
+  width: 250px;
+}
+
+.no-videos-retry-button {
+  all: initial;
+  font-family: roboto;
+  background-color: #453ed9;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}

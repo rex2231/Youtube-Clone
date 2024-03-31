@@ -1,0 +1,36 @@
+.trending-page {
+  width: 100%;
+  overflow-y: auto;
+  background-color: #f9f8f5;
+}
+
+.trending-logo-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 100%;
+  height: 55px;
+  width: 55px;
+  margin-right: 15px;
+}
+
+.trending-page-trending-logo {
+  color: red;
+  font-size: 22px;
+}
+
+.trending-page-content {
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.trending-page-loader-container {
+  height: calc(100vh - 200px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.gaming-video-thumbnail-img {
+  max-width: 200px;
+}
+
+.gaming-video-view-count {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.gaming-video-view-title {
+  margin: 0;
+  font-size: 15px;
+}
